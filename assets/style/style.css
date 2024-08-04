@@ -191,7 +191,7 @@ body{
     right: 55%;
 }
 
-.what-we-offer , .our-goal{
+.what-we-offer , .our-goal , .tasgel-d5ol{
     color: var(--Spindle)!important;
     font-family: var(--fonts)!important;
     font-weight: 900!important;
@@ -258,7 +258,7 @@ body{
     width: 200px;
     height: 5px;
     top: 0;
-    left: 45%;
+    left: 43%;
     background-color: var(--Spindle);
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -351,18 +351,18 @@ body{
     -o-border-radius: 10px;
 }
 
-.form-control{
+.subscrip-input{
     padding: 10px 25px!important;
     outline: none;
     background-color: #E8E8E8!important;
     color: #666666!important;
 }
 
-.form-control::placeholder{
+.subscrip-input::placeholder{
     color: #666666!important;
 }
 
-.form-control:focus{
+.subscrip-input:focus{
     box-shadow: none!important;
 }
 
@@ -422,6 +422,36 @@ body{
     transition-delay: .4s;
 }
 
+.register-img{
+    width: 550px;
+}
+
+.forget-password-img{
+    width: 450px;
+}
+
+.input-holder{
+    width: 35%;
+}
+
+.login-input{
+    background-color: rgba(164, 204, 232, 1)!important;
+}
+
+.login-submit{
+    color: white!important;
+    background-color: var(--Spindle)!important;
+    font-size: 18px!important;
+}
+
+.forget-pass , .new-acc{
+    color: var(--Spindle)!important;
+}
+
+.third-party-imgs{
+    width: 65px;
+}
+
 .footer-ul li a {
     text-decoration: none!important;
     font-family: var(--font);
@@ -463,12 +493,13 @@ footer{
         display: none;
     }
     .main-img{
-        width: 150px;
+        margin-top: 80px;
+        width: 300px;
     }
     .main-img-related{
-    position: absolute;
-    top: 35%;
-    right: 55%;
+        position: absolute;
+        top: 35%;
+        right: 55%;
     }
     .our-goal-img {
         width: 325px;
@@ -484,6 +515,12 @@ footer{
     .sec-three::after{
         left: 24%;
     }
+    .login-img , .register-img , .forget-password-img{
+        width: 300px;
+    }
+    .input-holder{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 391px) {
@@ -491,6 +528,7 @@ footer{
         display: none;
     }
     .main-img{
+        margin-top: 80px;
         width: 310px;
     }
     .side-img{
@@ -515,7 +553,12 @@ footer{
     .sec-three::after{
         left: 24%;
     }
-    
+    .login-img , .register-img , .forget-password-img{
+        width: 300px;
+    }
+    .input-holder{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 431px) {
@@ -523,12 +566,13 @@ footer{
         display: none;
     }
     .main-img{
-        width: 150px;
+        margin-top: 80px;
+        width: 300px;
     }
     .side-img{
         position: absolute;
-        top: 35%;
-        right: 55%;
+        top: 45%;
+        right: 65%;
     }
     .our-goal-img{
         width: 325px;
@@ -543,5 +587,11 @@ footer{
     }
     .sec-three::after{
         left: 24%;
+    }
+    .login-img , .register-img , .forget-password-img{
+        width: 300px;
+    }
+    .input-holder{
+        width: 100%;
     }
 }
